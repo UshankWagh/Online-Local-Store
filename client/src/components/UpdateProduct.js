@@ -41,6 +41,7 @@ const UpdateProduct = (props) => {
             // prevName = product.name;
             setPrevName(product.name);
             setPName(product.name);
+            setImageUrl(product.image);
             setCategory(product.category);
             setDesc(product.desc);
             setPrice(product.price);
